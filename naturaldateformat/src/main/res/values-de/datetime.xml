@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="one">vor einer Stunde</item>
+        <item quantity="other">vor %d Stunden</item>
+    </plurals>
+    <string name="now">jetzt</string>
+    <plurals name="carbon_inHours">
+        <item quantity="one">in einer Stunde</item>
+        <item quantity="other">in %d Stunden</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="one">vor einer Minute</item>
+        <item quantity="other">vor %d Minuten</item>
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="one">in einer Minute</item>
+        <item quantity="other">in %d Minuten</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+        <item quantity="one">vor einer Sekunde</item>
+        <item quantity="other">vor %d Sekunden</item>
+    </plurals>
+    <plurals name="carbon_inSeconds">
+        <item quantity="one">in einer Sekunde</item>
+        <item quantity="other">in %d Sekunden</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">letztes Jahr</item>
+        <item quantity="other">vor %d Jahren</item>
+    </plurals>
+    <string name="thisYear">dieses Jahr</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">nächstes Jahr</item>
+        <item quantity="other">in %d Jahren</item>
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="one">im letzten Monat</item>
+        <item quantity="other">vor %d Monaten</item>
+    </plurals>
+    <string name="thisMonth">diesen Monat</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="one">nächsten Monat</item>
+        <item quantity="other">in %d Monaten</item>
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">gestern</item>
+        <item quantity="two">vorgestern</item>
+        <item quantity="other">vor %d Tagen</item>
+    </plurals>
+    <string name="today">heute</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">morgen</item>
+        <item quantity="two">übermorgen</item>
+        <item quantity="other">in %d Tagen</item>
+    </plurals>
+</resources>
