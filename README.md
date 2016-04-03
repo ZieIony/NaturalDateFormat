@@ -2,7 +2,7 @@
 
 A library to format dates as described in Material Design guidelines (https://www.google.com/design/spec/patterns/data-formats.html#data-formats-date-time).
 
-RelativeDateFormat formats date as relative (4 months ago, today, next year), AbsoluteDateFormat formats date as absolute (Monday, 4:32 PM, June 10). Both use natural language
+RelativeDateFormat formats date as relative (4 months ago, today, next year), AbsoluteDateFormat formats date as absolute (Monday, 4:32 PM, June 10). These classes use natural language, can use abbreviations, 12/24 hours clock, skip time/year/weekday if not needed.
 
 ![Screenshot](https://github.com/ZieIony/NaturalDateFormat/blob/master/images/screenshot.png)
 
