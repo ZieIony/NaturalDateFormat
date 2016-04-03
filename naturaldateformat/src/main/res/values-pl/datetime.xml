@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="one">godzinę temu</item>
+        <item quantity="few">%d godziny temu</item>
+        <item quantity="many">%d godzin temu</item>
+        <item quantity="other">%d godziny temu</item>
+    </plurals>
+    <string name="now">teraz</string>
+    <plurals name="carbon_inHours">
+        <item quantity="one">za godzinę</item>
+        <item quantity="few">za %d godziny</item>
+        <item quantity="many">za %d godzin</item>
+        <item quantity="other">za %d godziny</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="one">minutę temu</item>
+        <item quantity="few">%d minuty temu</item>
+        <item quantity="many">%d minut temu</item>
+        <item quantity="other">%d minuty temu</item>
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="one">za minutę</item>
+        <item quantity="few">za %d minuty</item>
+        <item quantity="many">za %d minut</item>
+        <item quantity="other">za %d minuty</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+        <item quantity="one">sekundę temu</item>
+        <item quantity="few">%d sekundy temu</item>
+        <item quantity="many">%d sekund temu</item>
+        <item quantity="other">%d sekundy temu</item>
+    </plurals>
+    <plurals name="carbon_inSeconds">
+        <item quantity="one">za sekundę</item>
+        <item quantity="few">za %d sekundy</item>
+        <item quantity="many">za %d sekund</item>
+        <item quantity="other">za %d sekundy</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">w ubiegłym roku</item>
+        <item quantity="few">%d lata temu</item>
+        <item quantity="many">%d lat temu</item>
+        <item quantity="other">%d lata temu</item>
+    </plurals>
+    <string name="thisYear">w tym roku</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">w przyszłym roku</item>
+        <item quantity="few">za %d lata</item>
+        <item quantity="many">za %d lat</item>
+        <item quantity="other">za %d lata</item>
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="one">w ubiegłym miesiącu</item>
+        <item quantity="few">%d miesiące temu</item>
+        <item quantity="many">%d miesięcy temu</item>
+        <item quantity="other">%d miesiąca temu</item>
+    </plurals>
+    <string name="thisMonth">w tym miesiącu</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="one">w przyszłym miesiącu</item>
+        <item quantity="few">za %d miesiące</item>
+        <item quantity="many">za %d miesięcy</item>
+        <item quantity="other">za %d miesiąca</item>
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">wczoraj</item>
+        <item quantity="few">%d dni temu</item>
+        <item quantity="many">%d dni temu</item>
+        <item quantity="other">%d dni temu</item>
+    </plurals>
+    <string name="today">dziś</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">jutro</item>
+        <item quantity="few">za %d dni</item>
+        <item quantity="many">za %d dni</item>
+        <item quantity="other">za %d dni</item>
+    </plurals>
+</resources>

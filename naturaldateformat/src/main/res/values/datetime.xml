@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="one">hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+    <string name="now">now</string>
+    <plurals name="carbon_inHours">
+        <item quantity="one">next hour</item>
+        <item quantity="other">in %d hours</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="one">a minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="one">in a minute</item>
+        <item quantity="other">in %d minutes</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+        <item quantity="one">a second ago</item>
+        <item quantity="other">%d seconds ago</item>
+    </plurals>
+    <plurals name="carbon_inSeconds">
+        <item quantity="one">in a second</item>
+        <item quantity="other">in %d seconds</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">last year</item>
+        <item quantity="other">%d years ago</item>
+    </plurals>
+    <string name="thisYear">this year</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">next year</item>
+        <item quantity="other">in %d years</item>
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="one">last month</item>
+        <item quantity="other">%d months ago</item>
+    </plurals>
+    <string name="thisMonth">this month</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="one">next month</item>
+        <item quantity="other">in %d months</item>
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">yesterday</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <string name="today">today</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">tomorrow</item>
+        <item quantity="other">in %d days</item>
+    </plurals>
+</resources>
