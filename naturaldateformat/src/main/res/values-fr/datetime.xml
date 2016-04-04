@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="one">il y a une heure</item>
+        <item quantity="other">il y a %d heures</item>
+    </plurals>
+    <string name="now">maintenant</string>
+    <plurals name="carbon_inHours">
+        <item quantity="one">dans une heure</item>
+        <item quantity="other">dans %d heures</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="one">il y a une minute</item>
+        <item quantity="other">il y a %d minutes</item>
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="one">dans une minute</item>
+        <item quantity="other">dans %d minutes</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+        <item quantity="one">à l\'instant</item>
+        <item quantity="other">il y a %d secondes</item>
+    </plurals>
+    <plurals name="carbon_inSeconds">
+        <item quantity="one">dans une seconde</item>
+        <item quantity="other">dans %d secondes</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">l\'an dernier</item>
+        <item quantity="other">il y a %d ans</item>
+    </plurals>
+    <string name="thisYear">cette année</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">l\'an prochain</item>
+        <item quantity="other">dans %d ans</item>
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="one">le mois dernier</item>
+        <item quantity="other">il y a %d mois</item>
+    </plurals>
+    <string name="thisMonth">ce mois ci</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="one">le mois prochain</item>
+        <item quantity="other">dans %d mois</item>
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">hier</item>
+        <item quantity="other">il y a %d jours</item>
+    </plurals>
+    <string name="today">aujourd\'hui</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">demain</item>
+        <item quantity="other">dans %d jours</item>
+    </plurals>
+</resources>
