@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="one">een uur geleden</item>
+        <item quantity="other">%d uur geleden</item>
+    </plurals>
+    <string name="now">now</string>
+    <plurals name="carbon_inHours">
+        <item quantity="one">komend uur</item>
+        <item quantity="other">over %d uur</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="one">een minuut geleden</item>
+        <item quantity="other">%d minuten geleden</item>
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="one">over een minuut</item>
+        <item quantity="other">over %d minuten</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+        <item quantity="one">een seconde geleden</item>
+        <item quantity="other">%d seconden geleden</item>
+    </plurals>
+    <plurals name="carbon_inSeconds">
+        <item quantity="one">over een seconde</item>
+        <item quantity="other">over %d seconden</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">vorig jaar</item>
+        <item quantity="other">%d jaar geleden</item>
+    </plurals>
+    <string name="thisYear">dit jaar</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">komend jaar</item>
+        <item quantity="other">over %d jaar</item>
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="one">vorige maand</item>
+        <item quantity="other">%d maanden geleden</item>
+    </plurals>
+    <string name="thisMonth">deze maand</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="one">komende maand</item>
+        <item quantity="other">over %d maanden</item>
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">gisteren</item>
+        <item quantity="other">%d dagen geleden</item>
+    </plurals>
+    <string name="today">vandaag</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">morgen</item>
+        <item quantity="other">over %d dagen</item>
+    </plurals>
+</resources>
