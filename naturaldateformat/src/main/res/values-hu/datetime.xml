@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="one">egy órája</item>
+        <item quantity="other">%d órája</item>
+    </plurals>
+    <string name="now">most</string>
+    <plurals name="carbon_inHours">
+        <item quantity="one">egy órán belül</item>
+        <item quantity="other">%d órán belül</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="one">egy perce</item>
+        <item quantity="other">%d perce</item>
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="one">egy percen belül</item>
+        <item quantity="other">%d percen belül</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+        <item quantity="one">egy másodperce</item>
+        <item quantity="other">%d másodperce</item>
+    </plurals>
+    <plurals name="carbon_inSeconds">
+        <item quantity="one">egy másodpercen belül</item>
+        <item quantity="other">%d másodpercen belül</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">tavaly</item>
+        <item quantity="other">%d évvel ezelőtt</item>
+    </plurals>
+    <string name="thisYear">idén</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">egy éven belül</item>
+        <item quantity="other">%d éven belül</item>
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="one">egy hónapja</item>
+        <item quantity="other">%d hónapja</item>
+    </plurals>
+    <string name="thisMonth">ebben a hónapban</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="one">egy hónapon belül</item>
+        <item quantity="other">%d hónapon belül</item>
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">tegnap</item>
+        <item quantity="other">%d napja</item>
+    </plurals>
+    <string name="today">ma</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">holnap</item>
+        <item quantity="other">%d napon belül</item>
+    </plurals>
+</resources>
