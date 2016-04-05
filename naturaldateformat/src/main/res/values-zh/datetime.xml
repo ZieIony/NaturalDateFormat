@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="other">%d 小时前</item>
+    </plurals>
+    <string name="now">当下</string>
+    <plurals name="carbon_inHours">
+        <item quantity="other">%d 小时后</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="other">%d 分钟前</item>
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="other">%d 分钟后</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+        <item quantity="other">%d 秒钟之前</item>
+    </plurals>
+    <plurals name="carbon_inSeconds">
+        <item quantity="one">即刻</item>
+        <item quantity="other">%d 秒后</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">去年</item>
+        <item quantity="two">前年</item>
+        <item quantity="other">%d 年前</item>
+    </plurals>
+    <string name="thisYear">今年</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">明年</item>
+        <item quantity="two">后年</item>
+        <item quantity="other">%d 年后</item>
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="other">%d 个月前</item>
+    </plurals>
+    <string name="thisMonth">当月</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="other">%d 个月后</item>
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">昨天</item>
+        <item quantity="two">前天</item>
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <string name="today">今天</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">明天</item>
+        <item quantity="two">后天</item>
+        <item quantity="other">%d 天后</item>
+    </plurals>
+</resources>
