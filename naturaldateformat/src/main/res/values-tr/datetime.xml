@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="one">bir saat önce</item>
+        <item quantity="other">%d saat önce</item>
+    </plurals>
+    <string name="now">şimdi</string>
+    <plurals name="carbon_inHours">
+        <item quantity="one">bir saat sonra</item>
+        <item quantity="other">%d saat sonra</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="one">bir dakika önce</item>
+        <item quantity="other">%d dakika önce</item>
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="one">bir dakika sonra</item>
+        <item quantity="other">%d dakika sonra</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+        <item quantity="one">bir saniye önce</item>
+        <item quantity="other">%d saniye önce</item>
+    </plurals>
+    <plurals name="carbon_inSeconds">
+        <item quantity="one">bir saniye sonra</item>
+        <item quantity="other">%d saniye sonra</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">geçen yıl</item>
+        <item quantity="other">%d yıl önce</item>
+    </plurals>
+    <string name="thisYear">bu yıl</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">gelecek yıl</item>
+        <item quantity="other">%d yıl sonra</item>
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="one">geçen ay</item>
+        <item quantity="other">%d ay önce</item>
+    </plurals>
+    <string name="thisMonth">bu ay</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="one">gelecek ay</item>
+        <item quantity="other">%d ay sonra</item>
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">dün</item>
+        <item quantity="other">%d gün önce</item>
+    </plurals>
+    <string name="today">bugün</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">yarın</item>
+        <item quantity="other">%d gün sonra</item>
+    </plurals>
+</resources>
