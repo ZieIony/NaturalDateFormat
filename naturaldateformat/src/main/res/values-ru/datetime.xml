@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+        <item quantity="other">%d часов назад</item>
+    </plurals>
+    <string name="now">сейчас</string>
+    <plurals name="carbon_inHours">
+        <item quantity="one">через %d час</item>
+        <item quantity="few">через %d часа</item>
+        <item quantity="many">через %d часов</item>
+        <item quantity="other">через %d часов</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="many">%d минут назад</item>
+        <item quantity="other">%d минут назад</item>
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="one">через %d минуту</item>
+        <item quantity="few">через %d минуты</item>
+        <item quantity="many">через %d минут</item>
+        <item quantity="other">через %d минут</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+        <item quantity="one">%d секунду назад</item>
+        <item quantity="few">%d секунды назад</item>
+        <item quantity="many">%d секунд назад</item>
+        <item quantity="other">%d секунд назад</item>
+    </plurals>
+    <plurals name="carbon_inSeconds">
+        <item quantity="one">через %d секунду</item>
+        <item quantity="few">через %d секунды</item>
+        <item quantity="many">через %d секунд</item>
+        <item quantity="other">через %d секунд</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">%d год назад</item>
+        <item quantity="few">%d года назад</item>
+        <item quantity="many">%d лет назад</item>
+        <item quantity="other">%d лет назад</item>
+    </plurals>
+    <string name="thisYear">в этом году</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">через %d год</item>
+        <item quantity="few">через %d года</item>
+        <item quantity="many">через %d лет</item>
+        <item quantity="other">через %d лет</item>
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="one">%d месяц назад</item>
+        <item quantity="few">%d месяца назад</item>
+        <item quantity="many">%d месяцев назад</item>
+        <item quantity="other">%d месяцев назад</item>
+    </plurals>
+    <string name="thisMonth">в этом месяце</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="one">через %d месяц</item>
+        <item quantity="few">через %d месяца</item>
+        <item quantity="many">через %d месяцев</item>
+        <item quantity="other">через %d месяцев</item>
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+        <item quantity="other">%d дней назад</item>
+    </plurals>
+    <string name="today">сегодня</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">через %d день</item>
+        <item quantity="few">через %d дня</item>
+        <item quantity="many">через %d дней</item>
+        <item quantity="other">через %d дней</item>
+    </plurals>
+</resources>
