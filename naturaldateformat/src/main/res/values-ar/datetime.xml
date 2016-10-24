@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="carbon_hoursAgo">
+        <item quantity="one">قبل ساعة</item>
+        <item quantity="two">قبل ساعتين</item>
+        <item quantity="many">قبل %d ساعة</item>
+        <item quantity="other">قبل %d ساعات</item>
+    </plurals>
+    <string name="now">الان</string>
+    <plurals name="carbon_inHours">
+        <item quantity="one">بعد ساعة</item>
+		<item quantity="two">بعد ساعتين</item>
+        <item quantity="many">بعد %d ساعة</item>
+        <item quantity="other">بعد %d ساعات</item>
+    </plurals>
+    <plurals name="carbon_minutesAgo">
+        <item quantity="one">قبل دقيقة</item>
+		<item quantity="two">قبل دقيقتين</item>
+		<item quantity="many">قبل %d دقيقة</item>
+        <item quantity="other">قبل %d دقائق</item>
+
+    </plurals>
+    <plurals name="carbon_inMinutes">
+        <item quantity="one">بعد دقيقة</item>
+		<item quantity="two">بعد  دقيقتين</item>
+		<item quantity="many">بعد %d دقيقة</item>
+        <item quantity="other">بعد %d دقائق</item>
+    </plurals>
+    <plurals name="carbon_secondsAgo">
+		
+		<item quantity="one">قبل  ثانية</item>
+		<item quantity="two">قبل   ثانيتين </item>
+		<item quantity="many">قبل %d ثانية</item>
+        <item quantity="other">قبل %d ثواني</item>
+
+    </plurals>
+    <plurals name="carbon_inSeconds">
+		<item quantity="one">بعد   ثانية</item>
+		<item quantity="two">بعد    ثانيتين </item>
+		<item quantity="many">بعد %d ثانية</item>
+        <item quantity="other">بعد %d ثواني</item>
+    </plurals>
+
+    <plurals name="carbon_yearsAgo">
+        <item quantity="one">العام الماضي</item>		
+		<item quantity="two">قبل عامين</item>
+		<item quantity="many">قبل %d عام</item>
+        <item quantity="other">قبل %d اعوام</item>
+
+    </plurals>
+    <string name="thisYear">هذا العام</string>
+    <plurals name="carbon_inYears">
+        <item quantity="one">العام القادم</item>		
+		<item quantity="two">بعد    عامين </item>
+		<item quantity="many">بعد %d عام</item>
+        <item quantity="other">بعد %d اعوام</item>
+
+    </plurals>
+    <plurals name="carbon_monthsAgo">
+        <item quantity="one">الشهر الماضي</item>
+		<item quantity="two">قبل شهريين</item>
+		<item quantity="many">قبل %d شهر</item>
+        <item quantity="other">قبل %d اشهر</item>
+    </plurals>
+    <string name="thisMonth">this month</string>
+    <plurals name="carbon_inMonths">
+        <item quantity="one">الشهر القادم</item>		
+		<item quantity="two">بعد شهريين</item>
+		<item quantity="many">بعد %d شهر</item>
+        <item quantity="other">بعد %d اشهر</item>
+
+		
+    </plurals>
+    <plurals name="carbon_daysAgo">
+        <item quantity="one">امس</item>
+		<item quantity="two">قبل  يوميين</item>
+		<item quantity="many">قبل %d يوم</item>
+        <item quantity="other">قبل %d ايام</item>
+    </plurals>
+    <string name="today">اليوم</string>
+    <plurals name="carbon_inDays">
+        <item quantity="one">غداً</item>
+		<item quantity="two">بعد يوميين</item>
+		<item quantity="many">بعد %d يوم</item>
+        <item quantity="other">بعد %d ايام</item>
+    </plurals>
+</resources>
