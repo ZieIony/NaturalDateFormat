@@ -1,7 +1,6 @@
 package tk.zielony.naturaldateformat;
 
 import android.content.Context;
-import android.content.ContextWrapper;
 
 import org.joda.time.Chronology;
 import org.joda.time.DateTime;
@@ -47,7 +46,7 @@ public class RelativeDateFormat extends NaturalDateFormat {
     }
 
     private void formatHours(DateTime now, DateTime then, StringBuilder text) {
-        int hoursBetween = Hours.hoursBetween(now, then).getHours();
+        int hoursBetween = Hours.hoursBetween(now.toLocalTime(), then.toLocalTime()).getHours();
         if (hoursBetween == 0) {
             if (hasFormat(MINUTES)) {
                 formatMinutes(now, then, text);
@@ -62,7 +61,7 @@ public class RelativeDateFormat extends NaturalDateFormat {
     }
 
     private void formatMinutes(DateTime now, DateTime then, StringBuilder text) {
-        int minutesBetween = Minutes.minutesBetween(now, then).getMinutes();
+        int minutesBetween = Minutes.minutesBetween(now.toLocalTime(), then.toLocalTime()).getMinutes();
         if (minutesBetween == 0) {
             if (hasFormat(SECONDS)) {
                 formatSeconds(now, then, text);
@@ -77,7 +76,7 @@ public class RelativeDateFormat extends NaturalDateFormat {
     }
 
     private void formatSeconds(DateTime now, DateTime then, StringBuilder text) {
-        int secondsBetween = Seconds.secondsBetween(now, then).getSeconds();
+        int secondsBetween = Seconds.secondsBetween(now.toLocalTime(), then.toLocalTime()).getSeconds();
         if (secondsBetween == 0) {
             text.append(context.getString(R.string.now));
         } else if (secondsBetween > 0) {    // in N seconds
@@ -114,7 +113,7 @@ public class RelativeDateFormat extends NaturalDateFormat {
     }
 
     private void formatYears(DateTime now, DateTime then, StringBuffer text) {
-        int yearsBetween = Years.yearsBetween(now, then).getYears();
+        int yearsBetween = Years.yearsBetween(now.toLocalDate(), then.toLocalDate()).getYears();
         if (yearsBetween == 0) {
             if ((format & MONTHS) != 0) {
                 formatMonths(now, then, text);
@@ -129,7 +128,7 @@ public class RelativeDateFormat extends NaturalDateFormat {
     }
 
     private void formatMonths(DateTime now, DateTime then, StringBuffer text) {
-        int monthsBetween = Months.monthsBetween(now, then).getMonths();
+        int monthsBetween = Months.monthsBetween(now.toLocalDate(), then.toLocalDate()).getMonths();
         if (monthsBetween == 0) {
             if ((format & DAYS) != 0) {
                 formatDays(now, then, text);
@@ -144,7 +143,7 @@ public class RelativeDateFormat extends NaturalDateFormat {
     }
 
     private void formatDays(DateTime now, DateTime then, StringBuffer text) {
-        int daysBetween = Days.daysBetween(now, then).getDays();
+        int daysBetween = Days.daysBetween(now.toLocalDate(), then.toLocalDate()).getDays();
         if (daysBetween == 0) {
             text.append(context.getString(R.string.today));
         } else if (daysBetween > 0) {    // in N days

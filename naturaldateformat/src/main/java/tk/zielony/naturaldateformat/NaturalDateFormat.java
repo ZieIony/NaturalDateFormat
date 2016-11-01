@@ -5,8 +5,6 @@ import android.content.Context;
 import org.joda.time.Chronology;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
 
 import java.util.TimeZone;
 
@@ -51,6 +49,14 @@ public abstract class NaturalDateFormat {
         }
         DateTime then = new DateTime(dateTime);
 
+        if ((format & DATE) != 0)
+            return formatDate(now, then);
+        return formatTime(now, then);
+    }
+
+    public String format(long nowDateTime, long dateTime) {
+        DateTime now = new DateTime(nowDateTime);
+        DateTime then = new DateTime(dateTime);
         if ((format & DATE) != 0)
             return formatDate(now, then);
         return formatTime(now, then);
