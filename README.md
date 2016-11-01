@@ -4,6 +4,8 @@ A library to format dates as described in Material Design guidelines (https://ww
 
 RelativeDateFormat formats date as relative (4 months ago, today, next year), AbsoluteDateFormat formats date as absolute (Monday, 4:32 PM, June 10). These classes use natural language, can use abbreviations, 12/24 hours clock, skip time/year/weekday if not needed.
 
+This library internally uses Joda Time. If you're looking for something really compact, you may prefer to use [DateUtils](https://developer.android.com/reference/android/text/format/DateUtils.html#getRelativeDateTimeString(android.content.Context,%20long,%20long,%20long,%20int)).
+
 ![Screenshot](https://github.com/ZieIony/NaturalDateFormat/blob/master/images/screenshot.png)
 
 ##### How to install
